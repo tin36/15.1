@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style.css/">
+</head>
+<body>
+<center><a href="/"><input type="submit" class="button_link" value="На главную"></a></center>
+
+<center>
+    <div class="p_green">
+        <p>Возраст: {{ animal_info.age }}</p>
+        <p>Номер: {{ animal_info.animal_id }}</p>
+        <p>Тип: {{ animal_info.type }}</p>
+        <p>Имя: {{ animal_info.name }}</p>
+        <p>Пол: {{ animal_info.breed }}</p>
+        <p>Основной цвет: {{ animal_info.color_1 }}</p>
+        <p>Второй цвет: {{ animal_info.color_2 }}</p>
+        <p>День рождения: {{ animal_info.date_of_birth }}</p>
+        <p>Программа: {{ animal_info.outcome_subtype }}</p>
+        <p>Что сейчас с животным: {{ animal_info.outcome_type }}</p>
+        <p>Месяц прибытия: {{ animal_info.outcome_month }}</p>
+        <p>Год прибытия: {{ animal_info.outcome_year }}</p>
+    </div>
+</center>
+
+
+</body>
+</html>

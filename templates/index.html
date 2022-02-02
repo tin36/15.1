@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style.css/">
+</head>
+<body>
+<center><p class="text_single">Выберите животное</p></center>
+{%  for i in animal %}
+<center><div><a href="animal/{{ i.id }}" class="p_green">{{ i.name }} - {{ i.name }} - {{ i.age }} - {{ i.type }}</a></div></center>
+    <hr>
+
+{%  endfor %}
+</body>
+</html>
